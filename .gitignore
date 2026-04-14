@@ -1,0 +1,5 @@
+data/*.csv
+distilbert_phishing/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
