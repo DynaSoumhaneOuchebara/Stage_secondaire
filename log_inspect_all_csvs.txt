@@ -1,0 +1,111 @@
+Found 7 CSV file(s) in: /gpfs/home/acad/umons-artint/douch/.cache/kagglehub/datasets/naserabdullahalam/phishing-email-dataset/versions/1
+
+══════════════════════════════════════════════════════════════════════
+  File: CEAS_08.csv  (67.9 MB)
+══════════════════════════════════════════════════════════════════════
+  Shape  : 39,154 rows × 7 columns
+  Columns: ['sender', 'receiver', 'date', 'subject', 'body', 'label', 'urls']
+
+  Label column: 'label'
+  Unique values (2):
+    1                         →  21,842 rows
+    0                         →  17,312 rows
+
+  → ✓ BOTH safe and phishing
+
+  Sample text (first 200 chars):
+    Buck up, your troubles caused by small dimension will soon be over! Become a lover no woman will be able to resist! http://whitedone.com/   come. Even as Nazi tanks were rolling down the streets, the 
+
+══════════════════════════════════════════════════════════════════════
+  File: Enron.csv  (45.6 MB)
+══════════════════════════════════════════════════════════════════════
+  Shape  : 29,767 rows × 3 columns
+  Columns: ['subject', 'body', 'label']
+
+  Label column: 'label'
+  Unique values (2):
+    0                         →  15,791 rows
+    1                         →  13,976 rows
+
+  → ✓ BOTH safe and phishing
+
+  Sample text (first 200 chars):
+ - hplno 525 . xls file : hplno 525 . xls )
+
+══════════════════════════════════════════════════════════════════════
+  File: Ling.csv  (9.3 MB)
+══════════════════════════════════════════════════════════════════════
+  Shape  : 2,859 rows × 3 columns
+  Columns: ['subject', 'body', 'label']
+
+  Label column: 'label'
+  Unique values (2):
+    0                         →   2,401 rows
+    1                         →     458 rows
+
+  → ✓ BOTH safe and phishing
+
+  Sample text (first 200 chars):
+    content - length : 3386 apple-iss research center a us $ 10 million joint venture between apple computer inc . and the institute of systems science of the national university of singapore , located in
+
+══════════════════════════════════════════════════════════════════════
+  File: Nazario.csv  (7.8 MB)
+══════════════════════════════════════════════════════════════════════
+  Shape  : 1,565 rows × 7 columns
+  Columns: ['sender', 'receiver', 'date', 'subject', 'body', 'urls', 'label']
+
+  Label column: 'label'
+  Unique values (1):
+    1                         →   1,565 rows
+
+  → ✗ Phishing ONLY
+
+  Sample text (first 200 chars):
+    This text is part of the internal format of your mail folder, and is not a real message.  It is created automatically by the mail system software. If deleted, important folder data will be lost, and i
+
+══════════════════════════════════════════════════════════════════════
+  File: Nigerian_Fraud.csv  (9.2 MB)
+══════════════════════════════════════════════════════════════════════
+  Shape  : 3,332 rows × 7 columns
+  Columns: ['sender', 'receiver', 'date', 'subject', 'body', 'urls', 'label']
+
+  Label column: 'label'
+  Unique values (1):
+    1                         →   3,332 rows
+
+  → ✗ Phishing ONLY
+
+  Sample text (first 200 chars):
+    FROM:MR. JAMES NGOLA. CONFIDENTIAL TEL: 233-27-587908. E-MAIL: (james_ngola2002@maktoob.com).  URGENT BUSINESS ASSISTANCE AND PARTNERSHIP.   DEAR FRIEND,  I AM ( DR.) JAMES NGOLA, THE PERSONAL ASSISTA
+
+══════════════════════════════════════════════════════════════════════
+  File: SpamAssasin.csv  (14.9 MB)
+══════════════════════════════════════════════════════════════════════
+  Shape  : 5,809 rows × 7 columns
+  Columns: ['sender', 'receiver', 'date', 'subject', 'body', 'label', 'urls']
+
+  Label column: 'label'
+  Unique values (2):
+    0                         →   4,091 rows
+    1                         →   1,718 rows
+
+  → ✓ BOTH safe and phishing
+
+  Sample text (first 200 chars):
+    Date:        Wed, 21 Aug 2002 10:54:46 -0500     From:        Chris Garrigues      Message-ID:  <1029945287.4797.TMDA@deepeddy.vircio.com>   | I can't reproduce this error. For me it is very repeatabl
+
+══════════════════════════════════════════════════════════════════════
+  File: phishing_email.csv  (106.6 MB)
+══════════════════════════════════════════════════════════════════════
+  Shape  : 82,486 rows × 2 columns
+  Columns: ['text_combined', 'label']
+
+  Label column: 'label'
+  Unique values (2):
+    1                         →  42,891 rows
+    0                         →  39,595 rows
+
+  → ✓ BOTH safe and phishing
+
+  Sample text (first 200 chars):
+    hpl nom may 25 2001 see attached file hplno 525 xls hplno 525 xls

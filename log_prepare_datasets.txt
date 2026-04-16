@@ -1,0 +1,28 @@
+Dataset downloaded to: /gpfs/home/acad/umons-artint/douch/.cache/kagglehub/datasets/naserabdullahalam/phishing-email-dataset/versions/1
+CSV files found: ['Nazario.csv', 'Enron.csv', 'phishing_email.csv', 'Ling.csv', 'Nigerian_Fraud.csv', 'SpamAssasin.csv', 'CEAS_08.csv']
+
+────────────────────────────────────────────────────────────
+  Processing: SpamAssasin.csv
+────────────────────────────────────────────────────────────
+  Raw shape : (5809, 7)
+  Columns   : ['sender', 'receiver', 'date', 'subject', 'body', 'label', 'urls']
+  After cleaning: 5806 rows  (safe=4091, phishing=1715)
+  train:  4064 rows  →  /gpfs/home/acad/umons-artint/douch/projects/stagiaire/data_exploration/train.csv
+  val  :   871 rows  →  /gpfs/home/acad/umons-artint/douch/projects/stagiaire/data_exploration/val.csv
+  test :   871 rows  →  /gpfs/home/acad/umons-artint/douch/projects/stagiaire/data_exploration/test.csv
+  full :  5806 rows  →  /gpfs/home/acad/umons-artint/douch/projects/stagiaire/data_exploration/emails_clean.csv
+
+────────────────────────────────────────────────────────────
+  Processing: phishing_email.csv
+────────────────────────────────────────────────────────────
+  Raw shape : (82486, 2)
+  Columns   : ['text_combined', 'label']
+  After cleaning: 82032 rows  (safe=39212, phishing=42820)
+  train: 57422 rows  →  /gpfs/home/acad/umons-artint/douch/projects/stagiaire/data_training/train.csv
+  val  : 12305 rows  →  /gpfs/home/acad/umons-artint/douch/projects/stagiaire/data_training/val.csv
+  test : 12305 rows  →  /gpfs/home/acad/umons-artint/douch/projects/stagiaire/data_training/test.csv
+  full : 82032 rows  →  /gpfs/home/acad/umons-artint/douch/projects/stagiaire/data_training/emails_clean.csv
+
+✓ Dataset preparation complete!
+  data_exploration/  →  SpamAssasin  (5,806 rows)  — for notebooks 00 & 01
+  data_training/ →  phishing_email (82,032 rows)  — for notebooks 02 & 03
