@@ -1,4 +1,5 @@
-data/*.csv
+data_training/*.csv
+data_exploration/*.csv
 distilbert_phishing/
 __pycache__/
 .ipynb_checkpoints/
